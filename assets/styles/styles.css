@@ -284,6 +284,11 @@ a:hover {
     margin-left: 50px;
 }
 
+.main-item__description_by_mimo_without_margin_files {
+    font-size: 12pt;
+    text-align: center;
+}
+
 .footer {
     margin-top: 2rem;
     display: flex;
