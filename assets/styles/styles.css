@@ -270,6 +270,12 @@ a:hover {
 
 .main-item__description_by_mimo_without {
     font-size: 14pt;
+    text-align: center;
+}
+
+.main-item__description_by_mimo_without_margin {
+    font-size: 14pt;
+    margin-left: 50px;
 }
 
 .footer {
