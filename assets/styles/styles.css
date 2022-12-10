@@ -167,7 +167,7 @@ a:hover {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
-    flex: 1 1 0%;
+    flex: 110%;
     -webkit-box-pack: start;
     justify-content: space-between;
 }
@@ -182,6 +182,7 @@ a:hover {
 }
 
 .content__about-header {
+    text-align: center;
     font-size: 2.4rem;
     margin-bottom: 1.4rem;
     line-height: 4rem;
@@ -226,7 +227,7 @@ a:hover {
 
 .project .main-item__subdescription {
     font-weight: 200;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .project .main-item__subdescription span {
     font-weight: 400;
@@ -255,6 +256,20 @@ a:hover {
     line-height: 1.8rem;
     margin-top: -0.2rem;
     margin-bottom: 0.8rem;
+}
+
+.main-item__description_by_bel {
+    margin-left: 20px;
+    font-size: 12pt;
+}
+
+.main-item__description_by_mimo {
+    margin-left: 20px;
+    font-size: 14pt;
+}
+
+.main-item__description_by_mimo_without {
+    font-size: 14pt;
 }
 
 .footer {
