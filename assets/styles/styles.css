@@ -118,6 +118,12 @@ a:hover {
     width: 47.5rem;
 }
 
+.header_en_ru {
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 20pt;
+}
+
 .content__hello {
     display: flex;
     margin-top: 4.2rem;
