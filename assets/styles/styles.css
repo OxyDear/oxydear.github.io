@@ -177,6 +177,20 @@ a:hover {
     -webkit-box-pack: start;
     justify-content: space-between;
 }
+
+.content__social_examples {
+    display: flex;
+    font-size: 25pt;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex: 110%;
+    -webkit-box-pack: start;
+    justify-content: space-between;
+}
+
 .content__social-item {
     display: flex;
     align-items: center;
@@ -282,6 +296,17 @@ a:hover {
 .main-item__description_by_mimo_without_margin {
     font-size: 14pt;
     margin-left: 50px;
+}
+
+.main-item__description_examples {
+    margin-top: 5px;
+    display: flex;
+}
+
+.main-item__description_examples_ru {
+    margin-top: 5px;
+    display: flex;
+    font-size: 22pt;
 }
 
 .main-item__description_by_mimo_without_margin_files {
