@@ -113,6 +113,35 @@ a:hover {
     }
 }
 
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    empty-cells: hide;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+    height: 50px;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #323232;
+}
+
+th, td:hover {
+    background-color: #444444;
+}
+
 .main {
     margin: auto;
     width: 47.5rem;
@@ -181,6 +210,20 @@ a:hover {
 .content__social_examples {
     display: flex;
     font-size: 25pt;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex: 110%;
+    -webkit-box-pack: start;
+    justify-content: space-between;
+}
+
+.content__social_results {
+    display: flex;
+    font-size: 25pt;
+    padding-left: 225px;
     padding-top: 5px;
     padding-bottom: 50px;
     -webkit-box-orient: horizontal;
